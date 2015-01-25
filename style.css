@@ -144,6 +144,8 @@ h1{
 	max-height: 200px;
 	margin: 0 5px 0 0;
 	display:inline;
+	font-family: Lato;
+	font-weight: 300;
 }
 .navbar-brand{
 	padding: 15px 15px;
