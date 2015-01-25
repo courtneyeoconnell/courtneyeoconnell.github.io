@@ -216,7 +216,7 @@ h1{
 	margin: 0 0 5px 5px;
 }
 .btn-d,.btn-d:hover,.btn-d:focus{
-	color:#FFF!important;
+	color:#FFF;
 	background:rgba(0,0,0,.3);
 }
 .a-btn{
@@ -234,11 +234,11 @@ h1{
 
 .btn-c-3{
 	background:#00b9ff;
-	color:#FFF!important;
+	color:#FFF;
 }
 .btn-c-3:hover{
 	background:#00b9ff;
-	color:#FFF!important;
+	color:#FFF;
 }
 
 /* Link colour styles */
@@ -247,7 +247,7 @@ h1{
 	color:#00b9ff;
 }
 .ltc-3:hover{
-	color:#00b9ff!important;
+	color:#00b9ff;
 }
 
 /* Icons */
