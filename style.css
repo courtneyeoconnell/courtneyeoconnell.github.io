@@ -96,14 +96,44 @@ h1{
 
 /* Custom bloc styling */
 
-#nav-bloc,#home-hero-bloc,#bloc-2,#home-how-header-bloc,#home-how-bloc,#home-work-header-bloc,#home-work-row-1-bloc,#home-work-row-2-bloc,#home-work-row-3-bloc,#home-work-more-bloc,#about-bloc,#bloc-11,#work-header-bloc,#work-row-1-bloc,#work-row-2-bloc,#work-row-3-bloc,#work-row-4-bloc,#work-row-5-bloc,#work-row-6-bloc,#work-contact-bloc{
+#nav-bloc,#home-hero-bloc,#bloc-2,#home-how-header-bloc,#home-how-bloc,#home-work-header-bloc,#work-bloc-1,#work-bloc-2,#work-bloc-3,#work-bloc-4,#work-bloc-5,#work-bloc-6,#work-bloc-7,#work-bloc-8,#work-bloc-9,#work-bloc-10,#work-bloc-11,#work-bloc-12,#home-work-more-bloc,#about-bloc,#bloc-20{
 	background-color:#ffffff;
 }
 #footer-bloc{
 	background-color:#f5f5f5;
 }
-#about-bloc,#bloc-11,#footer-bloc{
+#home-work-header-bloc h2,#work-bloc-1 h3,#work-bloc-1 h5,#work-bloc-2 h3,#work-bloc-2 h5,#work-bloc-3 h3,#work-bloc-3 h5{
 	color:#47454B;
+}
+#work-bloc-1,#work-bloc-2,#work-bloc-3,#about-bloc,#bloc-20,#footer-bloc{
+	color:#47454B;
+}
+#work-bloc-1 h3{
+	line-height: 32px;
+}
+#work-bloc-1 h5{
+	line-height: 16px;
+}
+#work-bloc-1 p{
+	line-height: 16px;
+}
+#work-bloc-2 h3{
+	line-height: 32px;
+}
+#work-bloc-2 h5{
+	line-height: 16px;
+}
+#work-bloc-2 p{
+	line-height: 16px;
+}
+#work-bloc-3 h3{
+	line-height: 32px;
+}
+#work-bloc-3 h5{
+	line-height: 16px;
+}
+#work-bloc-3 p{
+	line-height: 16px;
 }
 #about-bloc h2{
 	line-height: 36px;
@@ -119,9 +149,9 @@ h1{
 	font-size: 14px;
 	line-height: 16px;
 }
-#bloc-11 p{
+#bloc-20 p{
 }
-#bloc-11 label{
+#bloc-20 label{
 	line-height: 16px;
 }
 
@@ -134,10 +164,10 @@ h1{
 .navbar-brand{
 	height:auto;
 	padding:15px 15px;
-	font-size:24px!important;
+	font-size:25px!important;
 	font-weight:normal;
-	font-family:Lato;
-	font-weight:300;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:600;
 }
 .navbar-brand img{
 	width: auto;
@@ -198,6 +228,10 @@ h1{
 
 .mg-clear{
 	margin:0;
+}
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
 }
 .mg-md{
 	margin-top:10px;
@@ -283,18 +317,6 @@ h1{
 }
 
 
-/* Dividers */
-.divider-h{
-	padding:20px 0;
-}
-.divider-h span{
-	display: block;
-	border-top:1px solid transparent;
-}
-.divider-half{
-	width: 50%;
-	margin: 0 auto;
-}
 
 /*Forms*/
 
