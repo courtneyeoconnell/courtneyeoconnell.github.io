@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------*/
 /*	    Portfolio of Courtney E. O’Connell
-/*      Built with blocs
+/*      Built with blocs, customized
 /*-----------------------------------------------------------------------------------*/
 
 body{
@@ -166,7 +166,7 @@ h1{
 	padding:15px 15px;
 	font-size:25px!important;
 	font-weight:normal;
-	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	font-weight:600;
 }
 .navbar-brand img{
