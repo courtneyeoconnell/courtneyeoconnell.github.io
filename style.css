@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------*/
 /*	    Portfolio of Courtney E. O’Connell
-/*      Built with blocs, customized
+/*      Built with blocs
 /*-----------------------------------------------------------------------------------*/
 
 body{
@@ -86,6 +86,9 @@ h1{
 	color:rgba(0,0,0,.7);
 	border-color:rgba(0,0,0,.3);
 }
+.voffset{
+	margin-top:30px;
+}
 /* Bloc Dividers */
 
 .b-divider{
@@ -96,62 +99,150 @@ h1{
 
 /* Custom bloc styling */
 
-#nav-bloc,#home-hero-bloc,#bloc-2,#home-how-header-bloc,#home-how-bloc,#home-work-header-bloc,#work-bloc-1,#work-bloc-2,#work-bloc-3,#work-bloc-4,#work-bloc-5,#work-bloc-6,#work-bloc-7,#work-bloc-8,#work-bloc-9,#work-bloc-10,#work-bloc-11,#work-bloc-12,#home-work-more-bloc,#about-bloc,#bloc-20{
+#nav-bloc,#home-hero-bloc,#bloc-2,#home-how-header-bloc,#home-how-bloc,#home-work-header-bloc,#work-bloc-tlc-rm,#work-bloc-toast,#work-bloc-tlc-js-web,#work-bloc-tlc-r-web,#work-bloc-scholastic-vision,#work-bloc-saatchi-juvederm,#work-bloc-saatchi-fybp,#work-bloc-z-pc-email-guide,#work-bloc-8,#work-bloc-metropcs,#work-bloc-wob,#work-bloc-11,#bloc-18,#bloc-19,#bloc-20,#bloc-21,#bloc-22,#bloc-23,#bloc-24,#bloc-25{
 	background-color:#ffffff;
 }
 #footer-bloc{
 	background-color:#f5f5f5;
 }
-#home-work-header-bloc h2,#work-bloc-1 h3,#work-bloc-1 h5,#work-bloc-2 h3,#work-bloc-2 h5,#work-bloc-3 h3,#work-bloc-3 h5{
+#home-work-header-bloc h2,#work-bloc-tlc-rm h3,#work-bloc-tlc-rm h5,#work-bloc-toast h3,#work-bloc-toast h5,#work-bloc-tlc-js-web h3,#work-bloc-tlc-js-web h5,#work-bloc-tlc-r-web h3,#work-bloc-tlc-r-web h5,#work-bloc-scholastic-vision h3,#work-bloc-scholastic-vision h5,#work-bloc-saatchi-juvederm h5,#work-bloc-saatchi-fybp h3,#work-bloc-saatchi-fybp h5,#work-bloc-z-pc-email-guide h3,#work-bloc-8 h3,#work-bloc-8 h5,#work-bloc-metropcs h3,#work-bloc-metropcs h5,#work-bloc-metropcs h5,#work-bloc-wob h3,#work-bloc-wob h5,#work-bloc-11 h3,#work-bloc-11 h5,#bloc-19 h4,#bloc-22 h5,#bloc-22 h4,#bloc-22 h5,#bloc-22 h5,#bloc-22 h5,#bloc-22 h5,#bloc-22 h5{
 	color:#47454B;
 }
-#work-bloc-1,#work-bloc-2,#work-bloc-3,#about-bloc,#bloc-20,#footer-bloc{
+#home-how-bloc,#work-bloc-tlc-rm,#work-bloc-toast,#work-bloc-tlc-js-web,#work-bloc-tlc-r-web,#work-bloc-scholastic-vision,#work-bloc-saatchi-juvederm,#work-bloc-saatchi-fybp,#work-bloc-z-pc-email-guide,#work-bloc-8,#work-bloc-metropcs,#work-bloc-wob,#work-bloc-11,#bloc-22,#bloc-23,#footer-bloc{
 	color:#47454B;
 }
-#work-bloc-1 h3{
+#work-bloc-tlc-rm h3{
 	line-height: 32px;
 }
-#work-bloc-1 h5{
+#work-bloc-tlc-rm h5{
 	line-height: 16px;
 }
-#work-bloc-1 p{
+#work-bloc-tlc-rm p{
 	line-height: 16px;
 }
-#work-bloc-2 h3{
+#work-bloc-toast h3{
 	line-height: 32px;
 }
-#work-bloc-2 h5{
+#work-bloc-toast h5{
 	line-height: 16px;
 }
-#work-bloc-2 p{
+#work-bloc-toast p{
 	line-height: 16px;
 }
-#work-bloc-3 h3{
+#work-bloc-tlc-js-web h3{
 	line-height: 32px;
 }
-#work-bloc-3 h5{
+#work-bloc-tlc-js-web h5{
 	line-height: 16px;
 }
-#work-bloc-3 p{
+#work-bloc-tlc-js-web p{
 	line-height: 16px;
 }
-#about-bloc h2{
-	line-height: 36px;
+#work-bloc-tlc-r-web h3{
+	line-height: 32px;
 }
-#about-bloc p{
-	line-height: 20px;
-}
-#about-bloc h5{
-	font-family: Lato;
+#work-bloc-tlc-r-web h5{
 	line-height: 16px;
 }
-#about-bloc h4{
+#work-bloc-tlc-r-web p{
+	line-height: 16px;
+}
+#work-bloc-scholastic-vision h3{
+	line-height: 32px;
+}
+#work-bloc-scholastic-vision h5{
+	line-height: 16px;
+}
+#work-bloc-scholastic-vision p{
+	line-height: 16px;
+}
+#work-bloc-saatchi-juvederm h3{
+	line-height: 32px;
+}
+#work-bloc-saatchi-juvederm h5{
+	line-height: 16px;
+}
+#work-bloc-saatchi-juvederm p{
+	line-height: 16px;
+}
+#work-bloc-saatchi-fybp h3{
+	line-height: 32px;
+}
+#work-bloc-saatchi-fybp h5{
+	line-height: 16px;
+}
+#work-bloc-saatchi-fybp p{
+	line-height: 16px;
+}
+#work-bloc-z-pc-email-guide h3{
+	line-height: 32px;
+}
+#work-bloc-z-pc-email-guide h5{
+	line-height: 16px;
+}
+#work-bloc-z-pc-email-guide p{
+	line-height: 16px;
+}
+#work-bloc-8 h3{
+	line-height: 32px;
+}
+#work-bloc-8 h5{
+	line-height: 16px;
+}
+#work-bloc-8 p{
+	line-height: 16px;
+}
+#work-bloc-metropcs h3{
+	line-height: 32px;
+}
+#work-bloc-metropcs h5{
+	line-height: 16px;
+}
+#work-bloc-metropcs p{
+	line-height: 16px;
+}
+#work-bloc-wob h3{
+	line-height: 32px;
+}
+#work-bloc-wob h5{
+	line-height: 16px;
+}
+#work-bloc-wob p{
+	line-height: 16px;
+}
+#work-bloc-11 h3{
+	line-height: 32px;
+}
+#work-bloc-11 h5{
+	line-height: 16px;
+}
+#work-bloc-11 p{
+	line-height: 16px;
+}
+#bloc-19 h4{
+	line-height: 16px;
+}
+#bloc-22 p{
 	font-size: 14px;
 	line-height: 16px;
 }
-#bloc-20 p{
+#bloc-22 h5{
+	font-family: Lato;
+	line-height: 16px;
 }
-#bloc-20 label{
+#bloc-22 h4{
+	font-size: 14px;
+	line-height: 16px;
+}
+#bloc-22 h5{
+	line-height: 16px;
+}
+#bloc-22 p{
+	line-height: 16px;
+}
+#bloc-23 p{
+}
+#bloc-23 label{
 	line-height: 16px;
 }
 
@@ -166,9 +257,9 @@ h1{
 	padding:15px 15px;
 	font-size:25px!important;
 	font-weight:normal;
-	/*font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;*/
-/*	font-weight:600;
-*/}
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:600;
+}
 .navbar-brand img{
 	width: auto;
 	max-height: 200px;
@@ -264,6 +355,10 @@ h1{
 .text-center .a-btn{
 	padding: 6px 0;
 }
+.a-block{
+	width:100%;
+	text-align: left;
+}
 
 /* Button colour styles */
 
@@ -317,6 +412,18 @@ h1{
 }
 
 
+/* Dividers */
+.divider-h{
+	padding:20px 0;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
 
 /*Forms*/
 
