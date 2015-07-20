@@ -59,7 +59,7 @@ h1{
 /* Bloc - Light theme */
 
 .l-bloc{
-	color:rgba(0,0,0,.5);
+	color: #333;
 }
 .l-bloc button:hover{
 	color:rgba(0,0,0,.7);
